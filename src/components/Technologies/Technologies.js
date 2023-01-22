@@ -5,6 +5,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   <Section id='tech'>
+    <div>
     <SectionDivider/>
     <br/>
       <SectionTitle>Technologies</SectionTitle>
@@ -56,7 +57,7 @@ const Technologies = () =>  (
       </ListItem>
     </List>
 
-    
+    </div>
 
   </Section>
 );

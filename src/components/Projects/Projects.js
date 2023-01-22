@@ -8,6 +8,7 @@ import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <Section nopadding id='projects'>
+    <div>
     <SectionDivider/>
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
@@ -17,6 +18,7 @@ const Projects = () => (
           <TitleContent>
             <HeaderThree title>{title}</HeaderThree>
             <Hr/>
+           
           </TitleContent>
           <CardInfo>
           <TitleContent>Problem and My Solution</TitleContent>
@@ -41,7 +43,7 @@ const Projects = () => (
       ))}
     </GridContainer>
 
-   
+    </div>
 
   </Section>
 );
