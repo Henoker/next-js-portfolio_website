@@ -35,10 +35,10 @@ const Technologies = () =>  (
           <ListParagraph>
            Python <br/>
            Django <br/>
-            Node Express.Js <br/>
-            SQL MySQL <br/>
-            PostGres <br/>
-            Mongo DB
+           Node Express.Js <br/>
+           MySQL <br/>
+           PostgreSQL <br/>
+           Mongo DB
           </ListParagraph>
         </ListContainer>          
       </ListItem>
@@ -52,6 +52,7 @@ const Technologies = () =>  (
             Git/Github <br/>
             CA and CD software workflow <br/>
             API tesing <br/>
+            Docker<br/>
           </ListParagraph>
         </ListContainer>          
       </ListItem>
