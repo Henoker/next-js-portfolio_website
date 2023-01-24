@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'React App',
-    description: "This is a react dashboard app made based zainkeeps code tutorial.",
+    description: "This is a react dashboard app modified from zainkeepscode tutorial using SCAMPER methodology. I have used React, Material UI, framer motions and react-apex chart for this project.",
       image: '/images/ReactDashboard.PNG',
       tags: ['React', 'Material UI', 'Chart js'],
     source: 'https://github.com/Henoker/dashboard',

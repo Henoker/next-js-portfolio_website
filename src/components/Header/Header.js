@@ -1,16 +1,21 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
-import { FaHackerrank } from 'react-icons/Fa';
+import { FaHireAHelper } from 'react-icons/Fa';
+import { motion } from "framer-motion";
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () =>  (
-  <Container>
+  <Container as={motion.div} initial={{ y: 25, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{
+    duration: 0.75,
+  }}>
     <Div1>
       <Link href="/">
         <a style={{display: "flex", alignItems: "center", color: "white", marginBottom: '20px' }}>
-          <FaHackerrank size="3rem"/><Span>Henock</Span>
+          <FaHireAHelper size="3rem"/>
 
         </a>
       </Link>
