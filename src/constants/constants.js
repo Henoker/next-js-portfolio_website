@@ -1,4 +1,14 @@
 export const projects = [
+
+{
+  title: 'E-commerce Auction',
+  description: "As part of my harvard CS50 course, I was expected to to Design an eBay-like e-commerce auction site that will allow registered users to post auction listings, place bids on listings, comment on those listings, and add listings to a watchlist. Users are able to visit a page that displays a list of all listing based on categories.",
+    image: '/images/project2.png',
+    tags: ['Python Django', 'JavaScript', 'SQLite'],
+  source: 'https://github.com/Henoker/Project_2',
+  visit: 'https://youtu.be/2etvhld6XkE',
+  id: 0,
+},
   {
     title: 'EPMS',
     description: "This is an all in one seamless online app for project management, vendor rating, client management, vendor management app with PDF Invoice, PO and Quotes Generation capability. The Project utilized Docker for deployment and WeasyPrint was used for PDF generation purposes",
@@ -9,13 +19,13 @@ export const projects = [
     id: 4,
   },
   {
-    title: 'E-commerce Auction',
-    description: "As part of my harvard CS50 course, I was expected to to Design an eBay-like e-commerce auction site that will allow registered users to post auction listings, place bids on listings, comment on those listings, and add listings to a watchlist. Users are able to visit a page that displays a list of all listing based on categories.",
-      image: '/images/project2.png',
-      tags: ['Python Django', 'JavaScript', 'SQLite'],
-    source: 'https://github.com/Henoker/Project_2',
-    visit: 'https://youtu.be/2etvhld6XkE',
-    id: 0,
+    title: 'React App',
+    description: "This is a react dashboard app modified from zainkeepscode tutorial using SCAMPER methodology. I have used React, Material UI, framer motions and react-apex chart for this project.",
+      image: '/images/ReactDashboard.PNG',
+      tags: ['React', 'Material UI', 'Chart js'],
+    source: 'https://github.com/Henoker/dashboard',
+    visit: 'https://henoker.github.io/dashboard/',
+    id: 2,
   },
   {
     title: 'EPHIE CUISINE',
@@ -26,15 +36,7 @@ export const projects = [
     visit: 'https://www.ephiecuisine.com/',
     id: 1,
   },
-  {
-    title: 'React App',
-    description: "This is a react dashboard app modified from zainkeepscode tutorial using SCAMPER methodology. I have used React, Material UI, framer motions and react-apex chart for this project.",
-      image: '/images/ReactDashboard.PNG',
-      tags: ['React', 'Material UI', 'Chart js'],
-    source: 'https://github.com/Henoker/dashboard',
-    visit: 'https://henoker.github.io/dashboard/',
-    id: 2,
-  },
+
 
 ];
 

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { motion } from "framer-motion";
+import img from './../../../public/images/coding.gif';
 
 
 export const HomeContainer = styled(motion.div)`
@@ -8,7 +9,7 @@ export const HomeContainer = styled(motion.div)`
   align-items: center;
   width: 100%;
   height: 100vh;
-  background: #004158;
+  background-image: url(${img});
   margin-top: 200px;
   margin-left: 500px;
  

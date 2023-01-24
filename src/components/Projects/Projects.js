@@ -1,13 +1,13 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle, SectionTwo } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 
 
 const Projects = () => (
-  <Section nopadding id='projects'>
+  <SectionTwo nopadding id='projects'>
     <div>
     <SectionDivider/>
     <SectionTitle main>Projects</SectionTitle>
@@ -45,7 +45,7 @@ const Projects = () => (
 
     </div>
 
-  </Section>
+  </SectionTwo>
 );
 
 export default Projects;
