@@ -9,6 +9,9 @@ export const HomeContainer = styled(motion.div)`
   width: 100%;
   height: 100vh;
   background: #004158;
+  margin-top: 200px;
+  margin-left: 500px;
+ 
   
 `
 
