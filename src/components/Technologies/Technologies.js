@@ -2,6 +2,7 @@ import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { motion } from "framer-motion";
 
 const Technologies = () =>  (
   <Section id='tech'>
@@ -12,7 +13,10 @@ const Technologies = () =>  (
       <SectionText>
       I have worked with a range of technologies from backend to frontend.
     </SectionText>
-    <List>
+    <List as={motion.div} animate={{ x: 100, rotate: 360 }}
+      transition={{ ease: "easeOut", duration: 2 }}
+      whileInView={{ opacity: 1 }}
+    >
       <ListItem>
         <DiReact size="3rem"/>
         <ListContainer>
@@ -48,9 +52,9 @@ const Technologies = () =>  (
           <ListTitle>Other Stacks</ListTitle>
           <ListParagraph>
             Expierence with <br/>
-            Software localization Projects <br/>
+            Software localization<br/>
             Git/Github <br/>
-            CA and CD software workflow <br/>
+            CA and CD workflow <br/>
             API tesing <br/>
             Docker<br/>
           </ListParagraph>

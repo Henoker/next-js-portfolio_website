@@ -4,7 +4,7 @@ export const projects = [
   title: 'E-commerce Auction',
   description: "As part of my harvard CS50 course, I was expected to to Design an eBay-like e-commerce auction site that will allow registered users to post auction listings, place bids on listings, comment on those listings, and add listings to a watchlist. Users are able to visit a page that displays a list of all listing based on categories.",
     image: '/images/project2.png',
-    tags: ['Python Django', 'JavaScript', 'SQLite'],
+    tags: ['Django', 'JavaScript', 'SQLite'],
   source: 'https://github.com/Henoker/Project_2',
   visit: 'https://youtu.be/2etvhld6XkE',
   id: 0,
