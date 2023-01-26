@@ -13,9 +13,8 @@ const Technologies = () =>  (
       <SectionText>
       I have worked with a range of technologies from backend to frontend.
     </SectionText>
-    <List as={motion.div} animate={{ x: 100, rotate: 360 }}
+    <List as={motion.div} initial={{x:-100}} whileInView={{ x:0, rotate: [0, 30, 0] }}
       transition={{ ease: "easeOut", duration: 2 }}
-      whileInView={{ opacity: 1 }}
     >
       <ListItem>
         <DiReact size="3rem"/>
