@@ -25,7 +25,7 @@ const BackgroundAnimation = () => (
         dur="0.2s" repeatCount="indefinite" />
     </path>
 </svg> */}
-<svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" style={{marginTop: -160, height: 800, width: 1400}} preserveAspectRatio="xMidYMid" viewBox="0 0 433 227">
+<svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" style={{marginTop: -90, height: 700, width: 1400}} preserveAspectRatio="xMidYMid" viewBox="0 0 433 227">
 <g transform=""><linearGradient id="lg-0.1738734061571705" x1="0" x2="1" y1="0" y2="0">
   <stop stop-color="#ff00ff" offset="0"></stop>
   <stop stop-color="#00ffff" offset="1"></stop>
