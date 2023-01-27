@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { motion } from "framer-motion";
-import img from './../../../public/images/coding.gif';
+import img from './../../../public/images/expanding.gif';
 
 
 export const HomeContainer = styled(motion.div)`
