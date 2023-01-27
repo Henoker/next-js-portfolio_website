@@ -13,7 +13,7 @@ const Technologies = () =>  (
       <SectionText>
       I have worked with a range of technologies from backend to frontend.
     </SectionText>
-    <List as={motion.div} initial={{x:-100}} whileInView={{ x:0, rotate: [0, 30, 0] }}
+    <List as={motion.div} initial={{x:-100}} whileInView={{ x:0, rotate: [0, 0, 0] }}
       transition={{ ease: "easeOut", duration: 2 }}
     >
       <ListItem>
