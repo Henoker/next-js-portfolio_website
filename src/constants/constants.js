@@ -21,8 +21,8 @@ export const projects = [
   {
     title: 'React App',
     description: "This is a react dashboard app modified from zainkeepscode tutorial using SCAMPER methodology. I have used React, Material UI, framer motions and react-apex chart for this project.",
-      image: '/images/ReactDashboard.PNG',
-      tags: ['React', 'Material UI', 'Chart js'],
+    image: '/images/ReactDashboard.PNG',
+    tags: ['React', 'Material UI', 'Chart js'],
     source: 'https://github.com/Henoker/dashboard',
     visit: 'https://henoker.github.io/dashboard/',
     id: 2,
@@ -47,3 +47,26 @@ export const TimeLineData = [
   { year: 2022, text: 'Completed my EDX Harvard cs50 web development course', },
   { year: 2023, text: 'Started participating in open source projects', },
 ];
+
+export const TechStacks = [
+  {
+    image: '/images/python.svg',
+    id: 1,
+  },
+  {
+    image: '/images/javascript.svg',
+    id: 2,
+  },
+  {
+    image: '/images/django-icon.svg',
+    id: 3,
+  },
+  {
+    image: '/images/nextjs-icon.svg',
+    id: 4,
+  },
+  {
+    image: '/images/create-react-app.svg',
+    id: 5,
+  }
+]

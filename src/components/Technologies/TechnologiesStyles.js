@@ -68,6 +68,8 @@ export const ListTitle = styled.h4`
   color: #FFFFFF;
   margin-bottom: 8px;
 
+
+
 @media ${props => props.theme.breakpoints.md}{
   font-size: 24px;
   line-height: 28px;
@@ -132,3 +134,4 @@ export const ListIcon = styled.img`
     margin-bottom: 0px;
   }
 `
+
