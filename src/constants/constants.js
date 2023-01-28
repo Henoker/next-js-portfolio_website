@@ -51,22 +51,44 @@ export const TimeLineData = [
 export const TechStacks = [
   {
     image: '/images/python.svg',
-    id: 1,
+    index: 0,
   },
   {
     image: '/images/javascript.svg',
-    id: 2,
+    index: 1,
   },
   {
     image: '/images/django-icon.svg',
-    id: 3,
+    index: 2,
   },
   {
     image: '/images/nextjs-icon.svg',
-    id: 4,
+    index: 3,
   },
   {
     image: '/images/create-react-app.svg',
-    id: 5,
-  }
-]
+    index: 4,
+  },
+  {
+    image: '/images/html-5.svg',
+    index: 5,
+  },
+  {
+    image: '/images/css-3.svg',
+    index: 6,
+  },
+  {
+    image: '/images/bootstrap.svg',
+    index: 7,
+  },
+  {
+    image: '/images/docker-icon.svg',
+    index: 8,
+  },
+
+  {
+    image: '/images/postgresql.svg',
+    index: 9,
+  },
+
+];

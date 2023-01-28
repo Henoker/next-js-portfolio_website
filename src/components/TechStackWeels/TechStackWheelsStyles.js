@@ -1,17 +1,24 @@
 import styled from 'styled-components'
 
+export const GridContainer = styled.section`
+display: flex;
+top: auto;
+height: 3vh;
+
+/* height: 50vh; */
+`
+
 export const FerrisWheelTechs = styled.div`
+/* height: 100%;
 right: 50%;
-top: 25%;
-height: 100%;
+top: 25%;  */
 position: fixed;
-/* overflow: hidden; */
+overflow: hidden;
 `
 
 export const ImageParent = styled.div`
-right: 50%;
-top: 25%;
-height: 100%;
+/* right: 80%; */
+/* top: 50%; */
 position: fixed;
 /* overflow: hidden; */
 `
