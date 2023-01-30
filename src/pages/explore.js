@@ -20,8 +20,9 @@ const Home = () => {
       <Technologies />
       <TechStackWheels/>
       <Timeline />
-      <BackToTopButton/>
       {/* <Acomplishments /> */}
+      <BackToTopButton/>
+      
     </Layout>
   );
 };

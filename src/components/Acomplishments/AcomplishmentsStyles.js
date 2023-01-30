@@ -132,3 +132,36 @@ export const IconContainer = styled.div`
     justify-content: space-between;
   }
 `
+
+export const About = styled.section`
+  margin-top: 130px;
+`
+export const AboutText = styled.p`
+  color: #EEE;
+  font-size: 18px;
+  font-weight: 700;
+`
+export const AboutHeading = styled.div`
+  position: relative;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: 900;
+`
+export const TitleLetter = styled.span`
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ font-size: 4.7em;
+ line-height: 1;
+ -webkit-text-stroke: 1px rgba(225, 225, 225, 0.3);
+ color: transparent;
+`
+export const TitleWord = styled.span`
+  padding: 40px 0 86px 155px;
+  display: block;
+  line-height: 1.2;
+`
+export const FontWeightLight = styled.span`
+  font-weight: 300;
+`
+

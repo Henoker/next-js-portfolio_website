@@ -1,5 +1,5 @@
 import Theme from '../styles/theme';
-import {AnimatePresence } from "framer-motion";
+import {motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 
 export default function App({ Component, pageProps }) {
@@ -10,7 +10,9 @@ export default function App({ Component, pageProps }) {
       <Theme>
       
       <AnimatePresence exitBeforeEnter >
+        
         <Component {...pageProps} key={router.route} />
+       
       </AnimatePresence>
        
         

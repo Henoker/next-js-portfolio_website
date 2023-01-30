@@ -1,8 +1,8 @@
 export default {
   // Temp fonts
   fonts: {
-    title: "Space Grotesk, sans-serif",
-    main: "Space Grotesk, sans-serif"
+    title: "Proxima Nova, sans-serif",
+    main: "Proxima Nova, sans-serif"
   },
   // Colors for layout
   colors: {
