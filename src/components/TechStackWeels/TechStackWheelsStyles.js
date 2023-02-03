@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const GridContainer = styled.section`
 display: flex;
 top: auto;
-height: 3vh;
+height: 8vh;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   height: 10vh;

@@ -50,7 +50,7 @@ export const TimeLineData = [
 
 export const TechStacks = [
   {
-    image: '/images/python.svg',
+    image: '/images/python2.svg',
     index: 0,
   },
   {
@@ -62,7 +62,7 @@ export const TechStacks = [
     index: 2,
   },
   {
-    image: '/images/nextjs-icon.svg',
+    image: '/images/nextjs-logo.svg',
     index: 3,
   },
   {

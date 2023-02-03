@@ -21,7 +21,7 @@ const Home = () => {
       <TechStackWheels/>
       <Timeline />
       {/* <Acomplishments /> */}
-      <BackToTopButton/>
+      {/* <BackToTopButton/> */}
       
     </Layout>
   );
